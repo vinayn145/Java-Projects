@@ -6,6 +6,7 @@ public class Programming {
 	System.out.println("Enter the size of an array");
 	int n=scan.nextInt();
 	int arr[]=new int[n];
+	System.out.println("Enter array elements");
 	for(int i=0;i<=arr.length-1;i++ ){
 		arr[i]=scan.nextInt();
 	}
